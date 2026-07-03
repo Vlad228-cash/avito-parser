@@ -84,4 +84,6 @@ def main():
     for row in rows:
         print(row)
     conn.close()
-main()
+
+if '__main__' == __name__:
+    main()
